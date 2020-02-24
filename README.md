@@ -52,3 +52,21 @@ $ find ./Clones -name api.service.ts
 O/P:
 ./Clones/BITCSE-angular/src/app/services/api.service.ts
 ```
+
+## Q2
+
+```
+print.sh
+```
+
+## Q3
+
+```
+greet.sh
+```
+
+## Q5
+
+```
+evaluate.sh
+```
