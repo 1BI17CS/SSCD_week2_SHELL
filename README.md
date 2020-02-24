@@ -70,3 +70,66 @@ greet.sh
 ```
 evaluate.sh
 ```
+
+## Q5
+
+### Sort
+> SORT command is used to sort a file, arranging the records in a particular order. By default, the sort command sorts file assuming the contents are ASCII. Using options in sort command, it can also be used to sort numerically.
+
+Ex:
+```
+$ cat names.txt
+Akash
+Anandteerth
+Abhishek
+Tushar
+Chaitanya
+Adithya
+```
+
+```
+$ sort names.txt
+O/P:
+Abhishek
+Adithya
+Akash
+Anandteerth
+Chaitanya
+Tushar
+```
+Options
+
+> 1) -o : Specify Output file 
+> 2) -r : Sorting In Reverse Order
+> 3) -n : To sort a file numerically
+
+### grep
+
+> The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.
+
+Options Description
+> * -c : This prints only a count of the lines that match a pattern
+> * -h : Display the matched lines, but do not display the filenames.
+> * -i : Ignores, case for matching
+> * -l : Displays list of a filenames only.
+> * -n : Display the matched lines and their line numbers.
+> * -v : This prints out all the lines that do not matches the pattern
+> * -e exp : Specifies expression with this option. Can use multiple times.
+> * -f file : Takes patterns from file, one per line.
+> * -E : Treats pattern as an extended regular expression (ERE)
+> * -w : Match whole word
+> * -o : Print only the matched parts of a matching line,
+ with each such part on a separate output line.
+
+ Ex:-
+ ```
+ $ cat sample.txt
+Welcome to BIT
+Welcome to Banglore
+Welcome to CS&E
+```
+```
+$ grep -c "Welcome" sample.txt 
+O/P:
+3
+```
