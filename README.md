@@ -187,3 +187,8 @@ $ cat Multi.txt | tr "\n" " "
 O/P:
 This is a multi line file
 ```
+
+## Q10
+```
+remove.sh
+```
