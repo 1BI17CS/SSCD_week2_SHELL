@@ -133,3 +133,27 @@ $ grep -c "Welcome" sample.txt
 O/P:
 3
 ```
+
+## Q6
+```
+identical.sh
+```
+
+Output:
+```
+$ cat duplicate.txt
+Akash
+Anandteerth
+Abhishek
+Akash
+Chaitanya
+Anandteerth
+Akash
+
+$ cat out.txt
+Abhishek
+Akash
+Anandteerth
+Chaitanya
+```
+
