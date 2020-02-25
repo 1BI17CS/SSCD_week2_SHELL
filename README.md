@@ -161,3 +161,8 @@ Chaitanya
 ```
 convert.sh
 ```
+
+## Q8
+```
+count.sh
+```
