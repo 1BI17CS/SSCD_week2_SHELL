@@ -166,3 +166,24 @@ convert.sh
 ```
 count.sh
 ```
+
+## Q9
+
+> Multiple lines can be combined into one line by replacing "\n" with " " using tr command
+
+Ex:
+```
+$cat Multi.txt
+This
+is
+a
+multi
+line
+file
+```
+
+```
+$ cat Multi.txt | tr "\n" " "
+O/P:
+This is a multi line file
+```
